@@ -9,15 +9,17 @@ public class ContingWords {
         File file = new File("D:/Programowanie/!Kurs programowania/03 Programy/Sprawdzian1803/text.txt");
         Scanner sc = new Scanner(file);
 
-        int counter = 1;
+        int counter = 0;
 
         while (sc.hasNextLine()) {
-        String text = sc.nextLine();
-        System.out.println(text);
-        System.out.println(text.length());
-
-        // Tworzenie substringow od spacji, na tej podstawie liczenie wyrazów
-
+            String text = sc.nextLine();
+            System.out.println(text);
+            for (int i = 0; i < text.length(); i++) {
+                if(text.charAt(i) == ' ' || text.charAt(i) == '.'){
+                    counter++;
+                }
+            }
         }
+        System.out.println(counter);
     }
 }
