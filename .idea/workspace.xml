@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98062b63-da08-461f-a818-9af801252662" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Zadanie2/BracketCounter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Zadanie7/Rekurencja.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,23 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ContingWords.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Zadanie8/ContingWords.java">
+      <file leaf-file-name="Rekurencja.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Zadanie7/Rekurencja.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="text.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/text.txt">
+      <file leaf-file-name="BracketCounter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Zadanie2/BracketCounter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            <state relative-caret-position="51">
+              <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -78,6 +78,8 @@
         <option value="$PROJECT_DIR$/src/Zadanie6/MatrixDemo.java" />
         <option value="$PROJECT_DIR$/text.txt" />
         <option value="$PROJECT_DIR$/src/Zadanie8/ContingWords.java" />
+        <option value="$PROJECT_DIR$/src/Zadanie7/Rekurencja.java" />
+        <option value="$PROJECT_DIR$/src/Zadanie2/BracketCounter.java" />
       </list>
     </option>
   </component>
@@ -124,6 +126,12 @@
               <item name="Sprawdzian1803" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Sprawdzian1803" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sprawdzian1803" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Zadanie7" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -148,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ContingWords">
+  <component name="RunManager" selected="Application.Rekurencja">
     <configuration name="ContingWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -225,14 +233,14 @@
       <module name="S02 Sprawdzian1803" />
       <envs />
     </configuration>
-    <configuration name="RadnomDrawDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Rekurencja" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Zadanie3.*" />
+          <option name="PATTERN" value="Zadanie7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Zadanie3.RadnomDrawDemo" />
+      <option name="MAIN_CLASS_NAME" value="Zadanie7.Rekurencja" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -260,19 +268,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.RadnomDrawDemo" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Demo" />
-      <item index="2" class="java.lang.String" itemvalue="Application.OdwracanieMatrixaDemo" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MatrixDemo" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ContingWords" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Demo" />
+      <item index="1" class="java.lang.String" itemvalue="Application.OdwracanieMatrixaDemo" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MatrixDemo" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ContingWords" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Rekurencja" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ContingWords" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MatrixDemo" />
-        <item index="2" class="java.lang.String" itemvalue="Application.OdwracanieMatrixaDemo" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Demo" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RadnomDrawDemo" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Rekurencja" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ContingWords" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MatrixDemo" />
+        <item index="3" class="java.lang.String" itemvalue="Application.OdwracanieMatrixaDemo" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +301,7 @@
       <updated>1521360816840</updated>
       <workItem from="1521360823363" duration="170000" />
       <workItem from="1521361028381" duration="334000" />
-      <workItem from="1521361441029" duration="8527000" />
+      <workItem from="1521361441029" duration="9353000" />
     </task>
     <task id="LOCAL-00001" summary="Zadanie 1">
       <created>1521361996145</created>
@@ -355,7 +363,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9031000" />
+    <option name="totallyTimeSpent" value="9857000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -605,11 +613,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Zadanie8/ContingWords.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        <state relative-caret-position="408">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Zadanie2/BracketCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Zadanie7/Rekurencja.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
