@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98062b63-da08-461f-a818-9af801252662" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Zadanie2/BracketCounter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Zadanie7/Rekurencja.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -301,7 +299,7 @@
       <updated>1521360816840</updated>
       <workItem from="1521360823363" duration="170000" />
       <workItem from="1521361028381" duration="334000" />
-      <workItem from="1521361441029" duration="9353000" />
+      <workItem from="1521361441029" duration="9383000" />
     </task>
     <task id="LOCAL-00001" summary="Zadanie 1">
       <created>1521361996145</created>
@@ -359,11 +357,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521369971627</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Zadanie 2 i 7 - zadania nie wykonane">
+      <created>1521370829430</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1521370829430</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9857000" />
+    <option name="totallyTimeSpent" value="9887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -414,7 +419,8 @@
     <MESSAGE value="Zadanie 5 - poprawka" />
     <MESSAGE value="Zadanie 6" />
     <MESSAGE value="Zadanie 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zadanie 8" />
+    <MESSAGE value="Zadanie 2 i 7 - zadania nie wykonane" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zadanie 2 i 7 - zadania nie wykonane" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
