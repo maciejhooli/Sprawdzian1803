@@ -1,54 +1,59 @@
 package Zadanie5;
 
 public class OdwracanieMatrixa {
-    private int[][] matrixToMirror = new int[3][3];
 
-    public int[][] fillmatrix() {
-        int counter = 1;
-        for (int i = 0; i < matrixToMirror.length; i++) {
-            for (int j = 0; j < matrixToMirror[i].length; j++) {
-                matrixToMirror[i][j] = counter;
-                counter++;
-            }
-        }
-        return matrixToMirror;
+
+
+    public void mirror(int[][] tab){
+        System.out.println("Basic Matix:");
+        show(tab);
+
+        System.out.println("Vertical Mirror Matrix:");
+        show(verticalMirror(tab));
+
+        System.out.println("Horizontal Mirror Matrix:");
+        show(horizontalMirror(tab));
+
+
+        System.out.println("Total Mirror Matrix:");
+        show(totalMirror(tab));
     }
 
-    public int[][] verticalMirror() {
-        int[][] mirroredMatrix = new int[matrixToMirror.length][matrixToMirror[0].length];
+    private int[][] verticalMirror(int[][] tab) {
+        int[][] mirroredMatrix = new int[tab.length][tab[0].length];
 
         for (int i = 0; i < mirroredMatrix.length; i++) {
             for (int j = 0; j < mirroredMatrix[i].length; j++) {
-                mirroredMatrix[i][j] = matrixToMirror[i][matrixToMirror[i].length-1 - j];
+                mirroredMatrix[i][j] = tab[i][tab[i].length-1 - j];
             }
         }
         return mirroredMatrix;
     }
 
-    public int[][] horizontalMirror() {
-        int[][] mirroredMatrix = new int[matrixToMirror.length][matrixToMirror[0].length];
+    private int[][] horizontalMirror(int[][] tab) {
+        int[][] mirroredMatrix = new int[tab.length][tab[0].length];
 
         for (int i = 0; i < mirroredMatrix.length; i++) {
             for (int j = 0; j < mirroredMatrix[i].length; j++) {
-                mirroredMatrix[i][j] = matrixToMirror[matrixToMirror[i].length-1 - i][j];
+                mirroredMatrix[i][j] = tab[tab[i].length-1 - i][j];
             }
         }
         return mirroredMatrix;
     }
 
-    public int[][] totalMirror() {
-        int[][] mirroredMatrix = new int[matrixToMirror.length][matrixToMirror[0].length];
+    private int[][] totalMirror(int[][] tab) {
+        int[][] mirroredMatrix = new int[tab.length][tab[0].length];
 
         for (int i = 0; i < mirroredMatrix.length; i++) {
             for (int j = 0; j < mirroredMatrix[i].length; j++) {
-                mirroredMatrix[i][j] = matrixToMirror[matrixToMirror.length-1 - i][matrixToMirror[i].length-1 - j];
+                mirroredMatrix[i][j] = tab[tab.length-1 - i][tab[i].length-1 - j];
             }
         }
         return mirroredMatrix;
     }
 
 
-    public void show(int[][] showMatrix) {
+    private void show(int[][] showMatrix) {
 
         for (int i = 0; i < showMatrix.length; i++) {
             for (int j = 0; j < showMatrix[i].length; j++) {
