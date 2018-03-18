@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98062b63-da08-461f-a818-9af801252662" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Zadanie6/MatrixDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Zadanie8/ContingWords.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Zadanie6/Matrix.java" afterPath="$PROJECT_DIR$/src/Zadanie6/Matrix.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,21 +15,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Matrix.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Zadanie6/Matrix.java">
+      <file leaf-file-name="ContingWords.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Zadanie8/ContingWords.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-              <folding />
+            <state relative-caret-position="306">
+              <caret line="18" column="77" lean-forward="false" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatrixDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Zadanie6/MatrixDemo.java">
+      <file leaf-file-name="text.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+            <state relative-caret-position="34">
+              <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -76,6 +77,8 @@
         <option value="$PROJECT_DIR$/src/Zadanie5/OdwracanieMatrixaDemo.java" />
         <option value="$PROJECT_DIR$/src/Zadanie6/Matrix.java" />
         <option value="$PROJECT_DIR$/src/Zadanie6/MatrixDemo.java" />
+        <option value="$PROJECT_DIR$/text.txt" />
+        <option value="$PROJECT_DIR$/src/Zadanie8/ContingWords.java" />
       </list>
     </option>
   </component>
@@ -122,18 +125,6 @@
               <item name="Sprawdzian1803" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Sprawdzian1803" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sprawdzian1803" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Zadanie5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sprawdzian1803" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sprawdzian1803" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Zadanie6" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -158,7 +149,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MatrixDemo">
+  <component name="RunManager" selected="Application.ContingWords">
+    <configuration name="ContingWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Zadanie8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Zadanie8.ContingWords" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="S02 Sprawdzian1803" />
+      <envs />
+    </configuration>
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -177,22 +187,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="S02 Sprawdzian1803" />
       <envs />
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Zadanie1.StandardInputDemo" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="a AlA ma kota" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="S02 Sprawdzian1803" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
     </configuration>
     <configuration name="MatrixDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -267,19 +261,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Application.RadnomDrawDemo" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Demo" />
-      <item index="3" class="java.lang.String" itemvalue="Application.OdwracanieMatrixaDemo" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MatrixDemo" />
+      <item index="0" class="java.lang.String" itemvalue="Application.RadnomDrawDemo" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Demo" />
+      <item index="2" class="java.lang.String" itemvalue="Application.OdwracanieMatrixaDemo" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MatrixDemo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ContingWords" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MatrixDemo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.OdwracanieMatrixaDemo" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Demo" />
-        <item index="3" class="java.lang.String" itemvalue="Application.RadnomDrawDemo" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ContingWords" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MatrixDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.OdwracanieMatrixaDemo" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Demo" />
+        <item index="4" class="java.lang.String" itemvalue="Application.RadnomDrawDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +294,7 @@
       <updated>1521360816840</updated>
       <workItem from="1521360823363" duration="170000" />
       <workItem from="1521361028381" duration="334000" />
-      <workItem from="1521361441029" duration="5129000" />
+      <workItem from="1521361441029" duration="8151000" />
     </task>
     <task id="LOCAL-00001" summary="Zadanie 1">
       <created>1521361996145</created>
@@ -337,11 +331,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521365750713</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Zadanie 6">
+      <created>1521366582916</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1521366582916</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5633000" />
+    <option name="totallyTimeSpent" value="8655000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -390,11 +391,12 @@
     <MESSAGE value="Zadanie 3" />
     <MESSAGE value="Zadanie 5" />
     <MESSAGE value="Zadanie 5 - poprawka" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zadanie 5 - poprawka" />
+    <MESSAGE value="Zadanie 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zadanie 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -563,6 +565,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Zadanie6/MatrixDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Zadanie6/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -571,11 +581,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zadanie6/MatrixDemo.java">
+    <entry file="file://$PROJECT_DIR$/text.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        <state relative-caret-position="34">
+          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Zadanie8/ContingWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="77" lean-forward="false" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
